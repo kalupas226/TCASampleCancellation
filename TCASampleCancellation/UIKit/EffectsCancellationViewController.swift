@@ -16,7 +16,7 @@ final class EffectsCancellationViewController: UIViewController {
 
     init(store: Store<EffectsCancellationState, EffectsCancellationAction>) {
         self.viewStore = ViewStore(store)
-        super.init(nibName: String(describing: EffectsCancellationViewController.self), bundle: nil)
+        super.init(nibName: nil, bundle: nil)
     }
 
     required init?(coder: NSCoder) {
