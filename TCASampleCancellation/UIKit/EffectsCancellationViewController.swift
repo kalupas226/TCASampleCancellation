@@ -11,7 +11,6 @@ final class EffectsCancellationViewController: UIViewController {
     @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
 
     private let viewStore: ViewStore<EffectsCancellationState, EffectsCancellationAction>
-
     private var cancellables: Set<AnyCancellable> = []
 
     init(store: Store<EffectsCancellationState, EffectsCancellationAction>) {
