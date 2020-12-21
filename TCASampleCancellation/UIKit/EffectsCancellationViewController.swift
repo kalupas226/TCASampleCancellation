@@ -69,9 +69,9 @@ struct EffectsCancellationViewControllerWrapper: UIViewControllerRepresentable {
 
     typealias UIViewControllerType = EffectsCancellationViewController
 
-    func makeUIViewController(context: Context) -> EffectsCancellationViewController {
+    func makeUIViewController(context: Context) -> UIViewControllerType {
         return EffectsCancellationViewController(store: store)
     }
 
-    func updateUIViewController(_ uiViewController: EffectsCancellationViewController, context: Context) {}
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
 }
