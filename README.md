@@ -5,7 +5,7 @@ TCA Cancellation のサンプルリポジトリ
 
 ```
 TCASampleCancellation
-|__SwiftUI
+|__ SwiftUI
 |   |__ EffectsCancellationView.swift # SwiftUI 製の View と TCA の各要素
 |__ UIKit
 |   |__ EffectsCancellationViewController.swift  # UIKit 製の View
