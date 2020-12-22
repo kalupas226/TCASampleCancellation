@@ -18,4 +18,4 @@ TCASampleCancellation
 ```
 
 ## 参考
-Point-Free さんの [CaseStudies](https://github.com/pointfreeco/swift-composable-architecture/tree/main/Examples/CaseStudies) の `02-Effects-Cancellation.swift` を主に参考に作成しています。
+Point-Free さんの [CaseStudies](https://github.com/pointfreeco/swift-composable-architecture/tree/main/Examples/CaseStudies) の `02-Effects-Cancellation.swift` を主に参考に（一部コードも借りつつ）作成しています。
