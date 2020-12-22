@@ -6,13 +6,13 @@ TCA Cancellation のサンプルリポジトリ
 ```
 TCASampleCancellation
 |__SwiftUI
-|  |__ EffectsCancellationView.swift # SwiftUI 製の View と TCA の各要素
+|   |__ EffectsCancellationView.swift # SwiftUI 製の View と TCA の各要素
 |__ UIKit
-|  |__ EffectsCancellationViewController.swift  # UIKit 製の View
-|  |__ EffectsCancellationViewController.xib # xib
-|_ Internal
-|  |__ ActivityIndicator.swift # ローディング中であることを示す Indicator
-|  |__ UIViewRepresented.swift # UIKit から ActivityIndicator を利用できるようにしている
+|   |__ EffectsCancellationViewController.swift  # UIKit 製の View
+|   |__ EffectsCancellationViewController.xib # xib
+|__ Internal
+|   |__ ActivityIndicator.swift # ローディング中であることを示す Indicator
+|   |__ UIViewRepresented.swift # UIKit から ActivityIndicator を利用できるようにしている
 |__ TCASampleCancellationApp.swift # Root View
 |__ NumbersAPIClient.swift # NumbersAPI と通信するための APIClient 
 ```
